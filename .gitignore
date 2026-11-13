@@ -23,9 +23,10 @@ wheels/
 .vscode/
 
 # Large/generated ML files
-models/
+/models/
 outputs/
 
 # Dataset
 data/raw/*
 !data/raw/parkinsons.names
+!data/raw/parkinsons.data
